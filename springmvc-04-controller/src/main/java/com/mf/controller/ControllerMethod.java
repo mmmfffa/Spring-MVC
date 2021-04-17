@@ -15,7 +15,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class ControllerMethod {
     //等价于  @RequestMapping(value = "/method",method = RequestMethod.GET)
 
-    @GetMapping("/method")
+//    @GetMapping("/method")
+    @RequestMapping("/method")
     public String index(Model model){
         model.addAttribute("msg","Method!");
         return "hello";

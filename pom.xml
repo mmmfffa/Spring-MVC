@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--suppress MavenDuplicateDependenciesInspection -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -13,6 +14,11 @@
         <module>springmvc-02-hello</module>
         <module>springmvc-03-annotation</module>
         <module>springmvc-04-controller</module>
+        <module>springmvc-05-json</module>
+        <module>springmvc-06</module>
+        <module>springmvc-07-ajax</module>
+        <module>springmvc-08-interceptor</module>
+        <module>springmvc-09-file</module>
     </modules>
 
     <properties>
@@ -45,6 +51,11 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
         </dependency>
     </dependencies>
 
